@@ -18,8 +18,6 @@ public class MyString {
 
     /** Returns the lowercase version of the given string. */
     public static String lowerCase(String str) {
-       if (str == null || str.length() == 0)
-        return null;
         str = str.toLowerCase();
         return str;
     }
